@@ -59,9 +59,8 @@ repetição "while".
 */
 function myAccount() {
     var cont = 20;
-    while(cont <= 30) {
-        console.log(cont);
-        cont++;
+    while(cont < 31) {
+        console.log(cont++);
     }
 }
 myAccount();
